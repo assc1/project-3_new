@@ -1,0 +1,56 @@
+sudo apt update
+sudo apt upgrade
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+node -v or npm -v 
+mkdir Todo
+ls
+cd Todo
+npm init
+ls
+npm install express
+touch index.js
+ls
+npm install dotenv
+vim index.js
+node index.js
+mkdir routes
+cd routes
+touch api.js
+vim api.js
+npm install mongoose
+mkdir models
+cd models
+touch todo.js
+vim todo.js
+vim api.js
+touch .env
+vi .env
+ vim index.js
+ node index.js
+ use postman to test api
+ npx create-react-app client
+ npm install concurrently --save-dev
+ vi package.json
+ cd client
+ vi package.json
+ add key pair to the package.json file
+ npm run dev
+ open port 3000 in the ec2 inorder to be able to access app from the internet.
+ cd client
+ cd src
+ mkdir components
+ cd components
+ touch Input.js ListTodo.js Todo.js
+ vi Input.js
+ cd ../.. to change to client.
+ npm install axios
+ cd src/components
+ vi ListTodo.js
+ vi Todo.js
+ cd ..
+ vi App.js
+ vi App.css
+ vim index.css
+ cd ../..
+ npm run dev
